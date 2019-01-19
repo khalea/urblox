@@ -1,6 +1,7 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Custom/NewUnlitShader" {
+Shader "Custom/NewSurfaceShader"
+ {
     Properties {
         _MainTex ("MainTex", 2D) = "white" {}
         _Outline ("_Outline", Range(0,0.1)) = 0
@@ -15,9 +16,7 @@ Shader "Custom/NewUnlitShader" {
  
             #pragma vertex vert
             #pragma fragment frag
-            
             #include "UnityCG.cginc"
-            
  
             struct v2f {
                 float4 pos : SV_POSITION;

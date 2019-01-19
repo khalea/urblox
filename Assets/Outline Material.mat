@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Outline Material
-  m_Shader: {fileID: 4800000, guid: aab503fc47ce540d7a49e7355b7d3cfd, type: 3}
+  m_Shader: {fileID: 4800000, guid: c8c04382f0d24461285967c6cef315be, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: aa45b5fa956e6234eb161fc63113b33a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -66,7 +66,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Outline: 0.0477
+    - _Outline: 0.0569
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -76,4 +76,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NewColor: {r: 0.37647063, g: 0.37647063, b: 0.37647063, a: 1}
     - _OutlineColor: {r: 0.6320754, g: 0.10435206, b: 0.10435206, a: 1}
+    - _SetColor: {r: 0.70696944, g: 0.9622642, b: 0.41304737, a: 1}

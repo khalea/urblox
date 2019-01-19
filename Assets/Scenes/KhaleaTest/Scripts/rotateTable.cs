@@ -20,7 +20,7 @@ public class rotateTable : MonoBehaviour
       //Fetch the GameObject's Collider (make sure they have a Collider component)
         btnObjCollider = GetComponent<Collider>();
         //Here the GameObject's Collider is not a trigger
-        btnObjCollider.isTrigger = false;
+        btnObjCollider.isTrigger = true;
     }
 
     // Update is called once per frame
@@ -46,4 +46,9 @@ public class rotateTable : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Something is in here");
+        table.transform.Rotate(new Vector3(0, 120, 0), Space.Self);
+    }
 }
