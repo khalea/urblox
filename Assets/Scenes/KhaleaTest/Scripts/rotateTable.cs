@@ -9,6 +9,8 @@ public class rotateTable : MonoBehaviour
   public GameObject table;
   public float speed;
 
+  private float timer = 0.0f;
+
   Collider btnObjCollider;
 
 
@@ -29,13 +31,18 @@ public class rotateTable : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnCollisionEnter(Collision collison) {
 
-      // Button Y goes down
-      btn.transform.Translate(0, -1, 0);
+      // TODO Animate button to slowly come back to y = 1 after collision enter
+
+      // Button Y goes down by 1
+      //btn.transform.Translate(0, -1, 0);
 
       // Rotate table by 120 deg and then stop
-      table.transform.Rotate(Vector3.up * speed, Space.Self);
+      table.transform.Rotate(new Vector3(0, 120, 0), Space.Self);
+
+      // Button Y goes up by 1
+      //btn.transform.Translate(0, 1, 0);
 
     }
 

@@ -230,5 +230,5 @@ MonoBehaviour:
   interactable: {fileID: 0}
   renderer: {fileID: 0}
   affectMaterial: 1
-  gripSqueeze: {fileID: 0}
-  pinchSqueeze: {fileID: 0}
+  gripSqueeze: {fileID: 11400000, guid: 5b2ee68f13c8ed346a8b17042ec211dd, type: 2}
+  pinchSqueeze: {fileID: 11400000, guid: 5b2ee68f13c8ed346a8b17042ec211dd, type: 2}

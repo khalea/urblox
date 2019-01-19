@@ -91,6 +91,7 @@ public class ControllerGrabObject : MonoBehaviour
         {
             if (collidingObject)
             {
+                print(collidingObject);
                 GrabObject();
             }
         }
