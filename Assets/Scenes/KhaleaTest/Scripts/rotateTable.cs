@@ -9,8 +9,6 @@ public class rotateTable : MonoBehaviour
   public GameObject table;
   public float speed;
 
-  private float timer = 0.0f;
-
   Collider btnObjCollider;
 
 
