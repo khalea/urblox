@@ -159,11 +159,17 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/pullout"
+                  },
                   "east" : {
                      "output" : "/actions/default/in/turnright"
                   },
                   "north" : {
                      "output" : "/actions/default/in/teleport"
+                  },
+                  "south" : {
+                     "output" : "/actions/default/in/pullin"
                   },
                   "west" : {
                      "output" : "/actions/default/in/turnleft"
@@ -177,11 +183,17 @@
             },
             {
                "inputs" : {
+                  "center" : {
+                     "output" : "/actions/default/in/pullout"
+                  },
                   "east" : {
                      "output" : "/actions/default/in/turnright"
                   },
                   "north" : {
                      "output" : "/actions/default/in/teleport"
+                  },
+                  "south" : {
+                     "output" : "/actions/default/in/pullin"
                   },
                   "west" : {
                      "output" : "/actions/default/in/turnleft"

@@ -28,7 +28,7 @@ public class CubePlacer : MonoBehaviour
     {
         if (grabAction.GetState(handType))
         {
-            RaycastHit hitInfo;
+            //RaycastHit hitInfo;
             //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 

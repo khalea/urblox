@@ -44,6 +44,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/PullOut",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/PullIn",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -122,7 +130,9 @@
       "/actions/platformer/in/Move": "Move",
       "/actions/platformer/in/Jump": "Jump",
       "/actions/default/in/TurnLeft": "Turn Left",
-      "/actions/default/in/TurnRight": "Turn Right"
+      "/actions/default/in/TurnRight": "Turn Right",
+      "/actions/default/in/PullOut": "Pull Out",
+      "/actions/default/in/PullIn": "Pull In"
     }
   ]
 }

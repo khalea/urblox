@@ -36,5 +36,9 @@ namespace Valve.VR
         public Valve.VR.SteamVR_Action_Boolean TurnLeft;
         
         public Valve.VR.SteamVR_Action_Boolean TurnRight;
+        
+        public Valve.VR.SteamVR_Action_Boolean PullOut;
+        
+        public Valve.VR.SteamVR_Action_Boolean PullIn;
     }
 }

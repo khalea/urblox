@@ -25,6 +25,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5b2ee68f13c8ed346a8b17042ec211dd, type: 2}
   - {fileID: 11400000, guid: c0e749b72c7756143a28da1d4bb89162, type: 2}
   - {fileID: 11400000, guid: 8fd2276b096a7a4458a53cca18ee6eec, type: 2}
+  - {fileID: 11400000, guid: 8ea6681eeb47bcc4aab54ab859665d4f, type: 2}
+  - {fileID: 11400000, guid: 90e080bcc50600b4889a0b264d4a429d, type: 2}
   InteractUI: {fileID: 11400000, guid: 668cf4709c322ca4eaab39e84a045552, type: 2}
   Teleport: {fileID: 11400000, guid: 48848fdf18b5571488d4e1855d7aa8fe, type: 2}
   GrabPinch: {fileID: 11400000, guid: 8b056ec9381f1c0458559ba6db2e466b, type: 2}
@@ -35,3 +37,5 @@ MonoBehaviour:
   Squeeze: {fileID: 11400000, guid: 5b2ee68f13c8ed346a8b17042ec211dd, type: 2}
   TurnLeft: {fileID: 11400000, guid: c0e749b72c7756143a28da1d4bb89162, type: 2}
   TurnRight: {fileID: 11400000, guid: 8fd2276b096a7a4458a53cca18ee6eec, type: 2}
+  PullOut: {fileID: 11400000, guid: 8ea6681eeb47bcc4aab54ab859665d4f, type: 2}
+  PullIn: {fileID: 11400000, guid: 90e080bcc50600b4889a0b264d4a429d, type: 2}

@@ -19,7 +19,8 @@ namespace Valve.VR.InteractionSystem
         private void OnButtonDown(Hand hand)
         {
             print("button press!");
-            StartCoroutine(Rotate(Vector3.up, 45, 1.0f));
+            StartCoroutine(Rotate(Vector3.forward, 90, 1.0f));
+            //StartCoroutine(DoPlant());
         }
 
         IEnumerator Rotate(Vector3 axis, float angle, float duration = 1.0f)
@@ -40,7 +41,7 @@ namespace Valve.VR.InteractionSystem
 
         private IEnumerator DoPlant()
         {
-            table.transform.Rotate(new Vector3(0, 5, 0), Space.Self);
+            table.transform.Rotate(new Vector3(0, 0, 10), Space.Self);
             yield return null;
             //GameObject planting = GameObject.Instantiate<GameObject>(prefab);
             //planting.transform.position = this.transform.position;
