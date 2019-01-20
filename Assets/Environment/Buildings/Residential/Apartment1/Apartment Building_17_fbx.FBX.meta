@@ -101,7 +101,12 @@ ModelImporter:
     4300032: AB17_OBJ_17
     4300034: AB17_OBJ_18
     4300036: AB17_OBJ_19
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100008, guid: 898eb37a563384340958574d1b7c8b1a, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

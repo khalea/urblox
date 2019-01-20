@@ -18,7 +18,17 @@ ModelImporter:
     4300000: BUilding
     4300002: BUilding_Window
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BUildingMat
+    second: {fileID: 2100000, guid: d3b4039502bb8401e947c5e849212ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BUilding_WindowMat
+    second: {fileID: 2100000, guid: 5512fb8af6c2549beb73c9f4ecab14b2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -47,6 +47,6 @@ public class rotateTable : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Something is in here");
-        table.transform.Rotate(new Vector3(0, 120, 0), Space.Self);
+        table.transform.Rotate(new Vector3(0, 5, 0), Space.Self);
     }
 }

@@ -810,7 +810,7 @@ MonoBehaviour:
   trackedObject: {fileID: 0}
   grabPinchAction: {fileID: 11400000, guid: 8b056ec9381f1c0458559ba6db2e466b, type: 2}
   grabGripAction: {fileID: 11400000, guid: ed22d3189c52c8b46929c68f6be6685d, type: 2}
-  hapticAction: {fileID: 11400000, guid: a4afdfa2903ce9249b5dbef20c4c78f6, type: 2}
+  hapticAction: {fileID: 11400000, guid: f7d8ffbc6e194e14abcb16f9a1598d58, type: 2}
   uiInteractAction: {fileID: 11400000, guid: 668cf4709c322ca4eaab39e84a045552, type: 2}
   useHoverSphere: 1
   hoverSphereTransform: {fileID: 0}
@@ -902,7 +902,7 @@ MonoBehaviour:
   trackedObject: {fileID: 0}
   grabPinchAction: {fileID: 11400000, guid: 8b056ec9381f1c0458559ba6db2e466b, type: 2}
   grabGripAction: {fileID: 11400000, guid: ed22d3189c52c8b46929c68f6be6685d, type: 2}
-  hapticAction: {fileID: 11400000, guid: a4afdfa2903ce9249b5dbef20c4c78f6, type: 2}
+  hapticAction: {fileID: 11400000, guid: f7d8ffbc6e194e14abcb16f9a1598d58, type: 2}
   uiInteractAction: {fileID: 11400000, guid: 668cf4709c322ca4eaab39e84a045552, type: 2}
   useHoverSphere: 1
   hoverSphereTransform: {fileID: 4000012325712216}
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   trackedObject: {fileID: 0}
   grabPinchAction: {fileID: 11400000, guid: 8b056ec9381f1c0458559ba6db2e466b, type: 2}
   grabGripAction: {fileID: 11400000, guid: ed22d3189c52c8b46929c68f6be6685d, type: 2}
-  hapticAction: {fileID: 11400000, guid: a4afdfa2903ce9249b5dbef20c4c78f6, type: 2}
+  hapticAction: {fileID: 11400000, guid: f7d8ffbc6e194e14abcb16f9a1598d58, type: 2}
   uiInteractAction: {fileID: 11400000, guid: 668cf4709c322ca4eaab39e84a045552, type: 2}
   useHoverSphere: 1
   hoverSphereTransform: {fileID: 480432}
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27991c206a5e66147bb8ee3ef31c8bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionSet: {fileID: 11400000, guid: 196ecf9f15efbca4eb5573c69248f653, type: 2}
+  actionSet: {fileID: 11400000, guid: 4d2f4d8d2ecf1cd47ac9cf5d19a03325, type: 2}
   disableAllOtherActionSets: 0
   activateOnStart: 1
   deactivateOnDestroy: 1
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   controllerMaterial: {fileID: 2100000, guid: 11b050e661ec0cf48a289a7266451e91, type: 2}
   flashColor: {r: 1, g: 0.9170069, b: 0.453, a: 0.709}
   textHintPrefab: {fileID: 140952, guid: 5fa42bb9e52706a42b8a1eaf0b54326a, type: 3}
-  hapticFlash: {fileID: 11400000, guid: a4afdfa2903ce9249b5dbef20c4c78f6, type: 2}
+  hapticFlash: {fileID: 11400000, guid: f7d8ffbc6e194e14abcb16f9a1598d58, type: 2}
   debugHints: 0
 --- !u!1 &177230
 GameObject:
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   controllerMaterial: {fileID: 2100000, guid: 11b050e661ec0cf48a289a7266451e91, type: 2}
   flashColor: {r: 1, g: 0.9170069, b: 0.453, a: 0.709}
   textHintPrefab: {fileID: 140952, guid: 5fa42bb9e52706a42b8a1eaf0b54326a, type: 3}
-  hapticFlash: {fileID: 11400000, guid: a4afdfa2903ce9249b5dbef20c4c78f6, type: 2}
+  hapticFlash: {fileID: 11400000, guid: f7d8ffbc6e194e14abcb16f9a1598d58, type: 2}
   debugHints: 0
 --- !u!1 &191996
 GameObject:

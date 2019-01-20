@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeTolerance: 0.000001
   fullPath: /actions/default/in/GrabGrip
-  actionSet: {fileID: 11400000, guid: 196ecf9f15efbca4eb5573c69248f653, type: 2}
+  actionSet: {fileID: 11400000, guid: 4d2f4d8d2ecf1cd47ac9cf5d19a03325, type: 2}
   direction: 0
