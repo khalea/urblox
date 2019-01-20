@@ -11,8 +11,8 @@ public class DioramaTeleport : MonoBehaviour
     {
         print(other);
         Debug.Log("Something is in here");
-        player.transform.localScale -= new Vector3(3F, 3F, 3F);
-        player.transform.position = new Vector3(15, 4.3f, 6.7f);
+        player.transform.localScale -= new Vector3(6F, 6F, 6F);
+        player.transform.position = new Vector3(15.56f, 8.77f, 5.15f);
         //button.transform.Translate(Vector3.down); 
         //table.transform.Rotate(new Vector3(0, 5, 0), Space.Self);
     }
