@@ -1,5 +1,5 @@
 # Urblox Concept
-Urblox an urban planning tool that you can step into! It's aimed at helping architects, urban designers, students, and hobbyists see how their ideas play out in an immersive environment.
+Urblox is an urban planning tool that you can step into! It's aimed at helping architects, urban designers, students, and hobbyists see how their ideas play out in an immersive environment.
 
 1) Import 3D assets into the "studio". 
 2) Build an environment from scratch, or use a pre-existing environment to modify & add on to. 
